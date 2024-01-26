@@ -1,1 +1,1 @@
-# projeto-spotify-alura
+# Spotify Alura
