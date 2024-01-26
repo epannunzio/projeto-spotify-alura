@@ -54,6 +54,7 @@ body {
   font-weight: 600;
   font-size: 14px;
   cursor: pointer;
+  color: #34d934;
 }
 
 .library {
@@ -166,7 +167,7 @@ body {
 
 .languages .languages__button {
   background-color: transparent;
-  border: 1px solid var(--gray3); /*short hand*/
+  border: 1px solid #34d934; /*short hand*/
   color: var(--white);
   cursor: pointer;
   align-items: center;
