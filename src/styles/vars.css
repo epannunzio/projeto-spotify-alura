@@ -1,0 +1,17 @@
+:root {
+  --font-dm-sans: "DM Sans", sans-serif;
+  --white: #fff;
+  --black: #000;
+  --gray1: #d6d6d6;
+  --gray2: #b3b3b3;
+  --gray3: #878787;
+  --gray4: #121212;
+  --gray5: #242424;
+  --gray6: #a7a7a7;
+  --gray7: #181818;
+  --bg-icon: #131313;
+  --bg-arrow-color: rgba(0,0,07);
+  --column-count: 5;
+  --grid-gap: 24px;
+  --min-container-width: 372px;
+}

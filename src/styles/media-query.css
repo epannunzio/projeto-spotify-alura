@@ -1,0 +1,64 @@
+@media screen and (max-width: 1015px) {
+  .offer__list-item {
+    grid-template-columns: 1fr 1fr;
+  }
+
+  .header__navigation {
+    flex-wrap: wrap;
+  }
+
+  .header__login {
+    padding-top: 20px;
+  }
+
+  .header__search {
+    /* display: none !important; */
+    width: auto !important;
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .footer__container-btn span {
+    font-size: 11px;
+  }
+}
+
+@media screen and (min-width: 1016px) and (max-width: 1140px) {
+  .header__search {
+    /* display: none !important; */
+    width: auto !important;
+    display: none;
+  }
+
+  /* .offer__list-item {
+    grid-template-columns: 1fr 1fr 1fr !important;
+  } */
+}
+
+@media screen and (max-width: 375px) {
+  .playlist {
+    display: none;
+  }
+
+  .playlist-container {
+    width: 100%; /* Ocupa toda a largura disponível */
+    height: auto; /* Altura automática, ajusta conforme o conteúdo */
+  }
+
+  .sidebar {
+    width: 342px;
+  }
+
+  .offer__list-item {
+    grid-template-columns: 1fr;
+  }
+
+  .offer__scroll-container {
+    overflow-y: visible;
+  }
+}
+
+
+/*Para criar o Json server: npm i json-server -g */
+/*Para poder consumir a API criada: json-server --watch api-artists/artists.json --port 3000 */
